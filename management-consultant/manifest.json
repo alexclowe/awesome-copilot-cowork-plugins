@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "1ef36b61-08fa-5ee0-9136-b1e018732c30",
+  "packageName": "com.the-ai-career-lab.management-consultant",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/management-consultant",
+    "privacyUrl": "https://theaicareerlab.com/professions/management-consultant/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/management-consultant/terms"
+  },
+  "name": {
+    "short": "management consultant",
+    "full": "Draft client proposals, write executive summaries, and turn meetings into action plans"
+  },
+  "description": {
+    "short": "Draft client proposals, write executive summaries, and turn meetings into actio…",
+    "full": "Draft client proposals, write executive summaries, and turn meetings into action plans"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/client-deliverables"
+    },
+    {
+      "folder": "./skills/strategic-analysis"
+    }
+  ]
+}

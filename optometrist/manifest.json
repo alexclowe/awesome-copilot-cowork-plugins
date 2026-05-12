@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "99b39d2b-2742-5ba7-909d-f40e9c730be1",
+  "packageName": "com.the-ai-career-lab.optometrist",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/optometrist",
+    "privacyUrl": "https://theaicareerlab.com/professions/optometrist/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/optometrist/terms"
+  },
+  "name": {
+    "short": "optometrist",
+    "full": "Document eye exams, draft referral letters, create patient education materials, and write insurance…"
+  },
+  "description": {
+    "short": "Document eye exams, draft referral letters, create patient education materials,…",
+    "full": "Document eye exams, draft referral letters, create patient education materials, and write insurance narratives"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/clinical-optometry"
+    },
+    {
+      "folder": "./skills/patient-communication"
+    }
+  ]
+}

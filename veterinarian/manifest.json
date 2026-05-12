@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "d7dea6ff-743b-5726-a01d-368e8c04eadb",
+  "packageName": "com.the-ai-career-lab.veterinarian",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/veterinarian",
+    "privacyUrl": "https://theaicareerlab.com/professions/veterinarian/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/veterinarian/terms"
+  },
+  "name": {
+    "short": "veterinarian",
+    "full": "Draft SOAP notes, write discharge summaries, and generate client communications"
+  },
+  "description": {
+    "short": "Draft SOAP notes, write discharge summaries, and generate client communications",
+    "full": "Draft SOAP notes, write discharge summaries, and generate client communications"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/pet-owner-communication"
+    },
+    {
+      "folder": "./skills/veterinary-medicine"
+    }
+  ]
+}

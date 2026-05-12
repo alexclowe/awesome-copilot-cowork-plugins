@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.1.0",
+  "id": "ece4dffe-ae56-5abb-97ab-4c1d1b06a8e0",
+  "packageName": "com.the-ai-career-lab.social-media-manager",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/social-media-manager",
+    "privacyUrl": "https://theaicareerlab.com/professions/social-media-manager/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/social-media-manager/terms"
+  },
+  "name": {
+    "short": "social media manager",
+    "full": "Captions, calendars, video scripts, visual briefs, and cross-platform adaptation for social media m…"
+  },
+  "description": {
+    "short": "Captions, calendars, video scripts, visual briefs, and cross-platform adaptatio…",
+    "full": "Captions, calendars, video scripts, visual briefs, and cross-platform adaptation for social media managers"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/platform-native-voice"
+    },
+    {
+      "folder": "./skills/social-analytics"
+    },
+    {
+      "folder": "./skills/social-content-creation"
+    },
+    {
+      "folder": "./skills/visual-design-brief"
+    }
+  ]
+}

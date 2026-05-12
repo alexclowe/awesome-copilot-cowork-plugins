@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "d81a773a-e408-5590-bc5f-ab25aa1d188d",
+  "packageName": "com.the-ai-career-lab.litigation-paralegal",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/paralegal",
+    "privacyUrl": "https://theaicareerlab.com/professions/paralegal/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/paralegal/terms"
+  },
+  "name": {
+    "short": "litigation paralegal",
+    "full": "Summarize depositions, build case timelines, draft motions, and manage discovery holds"
+  },
+  "description": {
+    "short": "Summarize depositions, build case timelines, draft motions, and manage discover…",
+    "full": "Summarize depositions, build case timelines, draft motions, and manage discovery holds"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/evidence-relevance-checker"
+    },
+    {
+      "folder": "./skills/legal-research-cite-finder"
+    }
+  ]
+}

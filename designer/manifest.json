@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "20ba40bc-a4b0-531f-be16-8f056679cab1",
+  "packageName": "com.the-ai-career-lab.designer",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/designer",
+    "privacyUrl": "https://theaicareerlab.com/professions/designer/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/designer/terms"
+  },
+  "name": {
+    "short": "designer",
+    "full": "Build AI-augmented design systems, critique designs, batch iterations, and ship dev-ready handoff s…"
+  },
+  "description": {
+    "short": "Build AI-augmented design systems, critique designs, batch iterations, and ship…",
+    "full": "Build AI-augmented design systems, critique designs, batch iterations, and ship dev-ready handoff specs"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/accessibility-audit"
+    },
+    {
+      "folder": "./skills/brand-voice-design"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "448ccff2-c0b8-508d-bffe-30dc298582fd",
+  "packageName": "com.the-ai-career-lab.copywriter",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/copywriter",
+    "privacyUrl": "https://theaicareerlab.com/professions/copywriter/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/copywriter/terms"
+  },
+  "name": {
+    "short": "copywriter",
+    "full": "Capture client voice, generate variations, gate output through approval workflows, stay employed in…"
+  },
+  "description": {
+    "short": "Capture client voice, generate variations, gate output through approval workflo…",
+    "full": "Capture client voice, generate variations, gate output through approval workflows, stay employed in the AI era"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/client-voice-mapping"
+    },
+    {
+      "folder": "./skills/conversion-psychology"
+    }
+  ]
+}

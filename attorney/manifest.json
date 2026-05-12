@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.1.0",
+  "id": "8d2c844f-cb4c-5de5-a7e9-8f2cb9405cf0",
+  "packageName": "com.the-ai-career-lab.attorney",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/attorney",
+    "privacyUrl": "https://theaicareerlab.com/professions/attorney/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/attorney/terms"
+  },
+  "name": {
+    "short": "attorney",
+    "full": "Draft memos, demand letters, contracts, motions, deposition summaries, case timelines, and AI risk …"
+  },
+  "description": {
+    "short": "Draft memos, demand letters, contracts, motions, deposition summaries, case tim…",
+    "full": "Draft memos, demand letters, contracts, motions, deposition summaries, case timelines, and AI risk memos"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/ai-regulatory-mapper"
+    },
+    {
+      "folder": "./skills/client-communication"
+    },
+    {
+      "folder": "./skills/legal-practice"
+    },
+    {
+      "folder": "./skills/litigation-workflow"
+    }
+  ]
+}

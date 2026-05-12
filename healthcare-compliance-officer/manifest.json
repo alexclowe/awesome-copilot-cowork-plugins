@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "fa417232-7fc6-5f0e-98a5-dfd07987f986",
+  "packageName": "com.the-ai-career-lab.healthcare-compliance-officer",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/healthcare-compliance-officer",
+    "privacyUrl": "https://theaicareerlab.com/professions/healthcare-compliance-officer/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/healthcare-compliance-officer/terms"
+  },
+  "name": {
+    "short": "healthcare compliance officer",
+    "full": "Validate AI medical devices, manage PCCPs, monitor adverse events, and stay aligned with FDA QSR"
+  },
+  "description": {
+    "short": "Validate AI medical devices, manage PCCPs, monitor adverse events, and stay ali…",
+    "full": "Validate AI medical devices, manage PCCPs, monitor adverse events, and stay aligned with FDA QSR"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/clinical-evidence-mapper"
+    },
+    {
+      "folder": "./skills/fda-classification-advisor"
+    }
+  ]
+}

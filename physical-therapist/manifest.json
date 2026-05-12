@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "c8d07a68-9905-574e-978c-8c70250dd5cd",
+  "packageName": "com.the-ai-career-lab.physical-therapist",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/physical-therapist",
+    "privacyUrl": "https://theaicareerlab.com/professions/physical-therapist/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/physical-therapist/terms"
+  },
+  "name": {
+    "short": "physical therapist",
+    "full": "Draft SOAP notes, build exercise programs, and write insurance appeal letters"
+  },
+  "description": {
+    "short": "Draft SOAP notes, build exercise programs, and write insurance appeal letters",
+    "full": "Draft SOAP notes, build exercise programs, and write insurance appeal letters"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/patient-exercise-instruction"
+    },
+    {
+      "folder": "./skills/rehabilitation-medicine"
+    }
+  ]
+}

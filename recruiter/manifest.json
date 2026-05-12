@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.1.0",
+  "id": "97e3df3f-16ac-5092-ad13-5b99a63fcf57",
+  "packageName": "com.the-ai-career-lab.recruiter",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/recruiter",
+    "privacyUrl": "https://theaicareerlab.com/professions/recruiter/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/recruiter/terms"
+  },
+  "name": {
+    "short": "recruiter",
+    "full": "Write job descriptions, draft outreach, screen for ghost jobs and AI-written resumes"
+  },
+  "description": {
+    "short": "Write job descriptions, draft outreach, screen for ghost jobs and AI-written re…",
+    "full": "Write job descriptions, draft outreach, screen for ghost jobs and AI-written resumes"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/ai-resume-detector"
+    },
+    {
+      "folder": "./skills/employer-branding"
+    },
+    {
+      "folder": "./skills/ghost-job-detection"
+    },
+    {
+      "folder": "./skills/talent-acquisition"
+    }
+  ]
+}

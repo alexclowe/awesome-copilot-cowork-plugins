@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.1.0",
+  "id": "8d0b77bf-4447-52f2-883d-9c8db7f53f95",
+  "packageName": "com.the-ai-career-lab.hr-manager",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/hr-manager",
+    "privacyUrl": "https://theaicareerlab.com/professions/hr-manager/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/hr-manager/terms"
+  },
+  "name": {
+    "short": "hr manager",
+    "full": "Write job descriptions, draft policies, run RTO and severance comms, audit reviews and JDs for bias"
+  },
+  "description": {
+    "short": "Write job descriptions, draft policies, run RTO and severance comms, audit revi…",
+    "full": "Write job descriptions, draft policies, run RTO and severance comms, audit reviews and JDs for bias"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/hr-operations"
+    },
+    {
+      "folder": "./skills/reskilling-pathway-mapper"
+    },
+    {
+      "folder": "./skills/talent-acquisition"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "43cbeb92-b9bf-5895-a560-e2be081dec8f",
+  "packageName": "com.the-ai-career-lab.event-planner",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/event-planner",
+    "privacyUrl": "https://theaicareerlab.com/professions/event-planner/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/event-planner/terms"
+  },
+  "name": {
+    "short": "event planner",
+    "full": "Create event proposals, vendor outreach, day-of timelines, and client updates for event planning"
+  },
+  "description": {
+    "short": "Create event proposals, vendor outreach, day-of timelines, and client updates f…",
+    "full": "Create event proposals, vendor outreach, day-of timelines, and client updates for event planning"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/client-management"
+    },
+    {
+      "folder": "./skills/event-design"
+    }
+  ]
+}

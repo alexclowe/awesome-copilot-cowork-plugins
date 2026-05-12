@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "37c920f5-4eac-55a6-9fdb-e8834244d521",
+  "packageName": "com.the-ai-career-lab.insurance-agent",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/insurance-agent",
+    "privacyUrl": "https://theaicareerlab.com/professions/insurance-agent/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/insurance-agent/terms"
+  },
+  "name": {
+    "short": "insurance agent",
+    "full": "Summarize policies, draft renewal letters, and generate claims documentation"
+  },
+  "description": {
+    "short": "Summarize policies, draft renewal letters, and generate claims documentation",
+    "full": "Summarize policies, draft renewal letters, and generate claims documentation"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/client-retention"
+    },
+    {
+      "folder": "./skills/insurance-analysis"
+    }
+  ]
+}

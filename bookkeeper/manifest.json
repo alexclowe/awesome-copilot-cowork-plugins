@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "5d4c93f0-8aa9-5ad4-afd8-9243b90b609b",
+  "packageName": "com.the-ai-career-lab.bookkeeper",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/bookkeeper",
+    "privacyUrl": "https://theaicareerlab.com/professions/bookkeeper/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/bookkeeper/terms"
+  },
+  "name": {
+    "short": "bookkeeper",
+    "full": "Draft financial summaries, prepare reconciliation reports, and generate client communications"
+  },
+  "description": {
+    "short": "Draft financial summaries, prepare reconciliation reports, and generate client …",
+    "full": "Draft financial summaries, prepare reconciliation reports, and generate client communications"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/financial-reporting"
+    },
+    {
+      "folder": "./skills/tax-communication"
+    }
+  ]
+}

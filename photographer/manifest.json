@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "c191950f-3fd8-521b-a470-fd360f93a0fd",
+  "packageName": "com.the-ai-career-lab.photographer",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/photographer",
+    "privacyUrl": "https://theaicareerlab.com/professions/photographer/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/photographer/terms"
+  },
+  "name": {
+    "short": "photographer",
+    "full": "Create client proposals, shot lists, album descriptions, and marketing emails for photography busin…"
+  },
+  "description": {
+    "short": "Create client proposals, shot lists, album descriptions, and marketing emails f…",
+    "full": "Create client proposals, shot lists, album descriptions, and marketing emails for photography businesses"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/photography-business"
+    },
+    {
+      "folder": "./skills/visual-storytelling"
+    }
+  ]
+}

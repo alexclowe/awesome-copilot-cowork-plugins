@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "7da1b7c4-daee-5295-8fd1-c3caff3ec3a2",
+  "packageName": "com.the-ai-career-lab.chiropractor",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/chiropractor",
+    "privacyUrl": "https://theaicareerlab.com/professions/chiropractor/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/chiropractor/terms"
+  },
+  "name": {
+    "short": "chiropractor",
+    "full": "Chart SOAP notes, draft medical necessity letters, and generate practice marketing content"
+  },
+  "description": {
+    "short": "Chart SOAP notes, draft medical necessity letters, and generate practice market…",
+    "full": "Chart SOAP notes, draft medical necessity letters, and generate practice marketing content"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/chiropractic-clinical"
+    },
+    {
+      "folder": "./skills/practice-growth"
+    }
+  ]
+}

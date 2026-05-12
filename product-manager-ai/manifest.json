@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "fa13da0f-407d-56c2-a907-5f905238be0f",
+  "packageName": "com.the-ai-career-lab.product-manager-ai",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/product-manager-ai",
+    "privacyUrl": "https://theaicareerlab.com/professions/product-manager-ai/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/product-manager-ai/terms"
+  },
+  "name": {
+    "short": "product manager ai",
+    "full": "Spec AI features, evaluate regulatory risk, plan staged rollouts, and turn user feedback into the n…"
+  },
+  "description": {
+    "short": "Spec AI features, evaluate regulatory risk, plan staged rollouts, and turn user…",
+    "full": "Spec AI features, evaluate regulatory risk, plan staged rollouts, and turn user feedback into the next sprint"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/ai-readiness-assessment"
+    },
+    {
+      "folder": "./skills/competitive-benchmarking"
+    }
+  ]
+}

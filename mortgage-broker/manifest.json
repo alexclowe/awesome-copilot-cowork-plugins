@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "c1feceed-5649-5d49-abb2-bdb57e706b12",
+  "packageName": "com.the-ai-career-lab.mortgage-broker",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/mortgage-broker",
+    "privacyUrl": "https://theaicareerlab.com/professions/mortgage-broker/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/mortgage-broker/terms"
+  },
+  "name": {
+    "short": "mortgage broker",
+    "full": "Generate rate comparisons, draft pre-approval letters, and create client communications for mortgag…"
+  },
+  "description": {
+    "short": "Generate rate comparisons, draft pre-approval letters, and create client commun…",
+    "full": "Generate rate comparisons, draft pre-approval letters, and create client communications for mortgage lending"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/client-communication"
+    },
+    {
+      "folder": "./skills/mortgage-lending"
+    }
+  ]
+}

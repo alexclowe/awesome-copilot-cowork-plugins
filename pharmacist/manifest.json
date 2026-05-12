@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "91602d22-5591-5dfe-8e80-5972b585558f",
+  "packageName": "com.the-ai-career-lab.pharmacist",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/pharmacist",
+    "privacyUrl": "https://theaicareerlab.com/professions/pharmacist/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/pharmacist/terms"
+  },
+  "name": {
+    "short": "pharmacist",
+    "full": "Review drug interactions, check dosing protocols, and draft patient counseling notes"
+  },
+  "description": {
+    "short": "Review drug interactions, check dosing protocols, and draft patient counseling …",
+    "full": "Review drug interactions, check dosing protocols, and draft patient counseling notes"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/clinical-pharmacy"
+    },
+    {
+      "folder": "./skills/patient-communication"
+    }
+  ]
+}

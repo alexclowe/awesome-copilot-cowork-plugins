@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.1.0",
+  "id": "8cf47a9a-3ebb-5a6b-946d-e46d6495abd2",
+  "packageName": "com.the-ai-career-lab.teacher",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/teacher",
+    "privacyUrl": "https://theaicareerlab.com/professions/teacher/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/teacher/terms"
+  },
+  "name": {
+    "short": "teacher",
+    "full": "Lesson plans, rubrics, parent communications, plus FERPA/COPPA AI guardrails, AI ethics briefs, and…"
+  },
+  "description": {
+    "short": "Lesson plans, rubrics, parent communications, plus FERPA/COPPA AI guardrails, A…",
+    "full": "Lesson plans, rubrics, parent communications, plus FERPA/COPPA AI guardrails, AI ethics briefs, and exam-integrity review"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/classroom-ai-ethics"
+    },
+    {
+      "folder": "./skills/classroom-communication"
+    },
+    {
+      "folder": "./skills/curriculum-design"
+    }
+  ]
+}

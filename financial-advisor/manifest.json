@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.1.0",
+  "id": "cfa04d1f-5be3-5db9-a94e-ab963ae0371d",
+  "packageName": "com.the-ai-career-lab.financial-advisor",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/financial-advisor",
+    "privacyUrl": "https://theaicareerlab.com/professions/financial-advisor/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/financial-advisor/terms"
+  },
+  "name": {
+    "short": "financial advisor",
+    "full": "Plan summaries, portfolio reviews, tax-loss harvesting, ESG screens, regulatory tracking, and multi…"
+  },
+  "description": {
+    "short": "Plan summaries, portfolio reviews, tax-loss harvesting, ESG screens, regulatory…",
+    "full": "Plan summaries, portfolio reviews, tax-loss harvesting, ESG screens, regulatory tracking, and multi-jurisdiction tax"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/advisory-communication"
+    },
+    {
+      "folder": "./skills/financial-planning"
+    },
+    {
+      "folder": "./skills/regulatory-change-monitor"
+    }
+  ]
+}

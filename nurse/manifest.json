@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "1c951272-0491-5b37-a1e9-05bc6aba642c",
+  "packageName": "com.the-ai-career-lab.nurse",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/nurse",
+    "privacyUrl": "https://theaicareerlab.com/professions/nurse/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/nurse/terms"
+  },
+  "name": {
+    "short": "nurse",
+    "full": "Draft nursing notes, create shift handoffs, build care plans, and generate patient education materi…"
+  },
+  "description": {
+    "short": "Draft nursing notes, create shift handoffs, build care plans, and generate pati…",
+    "full": "Draft nursing notes, create shift handoffs, build care plans, and generate patient education materials"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/clinical-nursing"
+    },
+    {
+      "folder": "./skills/patient-education"
+    }
+  ]
+}

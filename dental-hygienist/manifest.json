@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "a8347416-6eb1-55b8-be96-2253c5edc2c1",
+  "packageName": "com.the-ai-career-lab.dental-hygienist",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/dental-hygienist",
+    "privacyUrl": "https://theaicareerlab.com/professions/dental-hygienist/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/dental-hygienist/terms"
+  },
+  "name": {
+    "short": "dental hygienist",
+    "full": "Document periodontal findings, write insurance narratives, and create patient education materials"
+  },
+  "description": {
+    "short": "Document periodontal findings, write insurance narratives, and create patient e…",
+    "full": "Document periodontal findings, write insurance narratives, and create patient education materials"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/clinical-dental-hygiene"
+    },
+    {
+      "folder": "./skills/oral-health-education"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "c2aa7544-d9ab-55c1-bfc3-d6209af93261",
+  "packageName": "com.the-ai-career-lab.esg-sustainability-analyst",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/esg-sustainability-analyst",
+    "privacyUrl": "https://theaicareerlab.com/professions/esg-sustainability-analyst/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/esg-sustainability-analyst/terms"
+  },
+  "name": {
+    "short": "esg sustainability analyst",
+    "full": "Extract ESG data, score risk, draft disclosures, and benchmark sustainability performance"
+  },
+  "description": {
+    "short": "Extract ESG data, score risk, draft disclosures, and benchmark sustainability p…",
+    "full": "Extract ESG data, score risk, draft disclosures, and benchmark sustainability performance"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/carbon-accounting-automation"
+    },
+    {
+      "folder": "./skills/regulatory-standard-mapping"
+    }
+  ]
+}

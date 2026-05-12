@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "0c8a0bfc-59bb-56d9-9a1e-02a4deabb6a9",
+  "packageName": "com.the-ai-career-lab.dietitian",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/dietitian",
+    "privacyUrl": "https://theaicareerlab.com/professions/dietitian/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/dietitian/terms"
+  },
+  "name": {
+    "short": "dietitian",
+    "full": "Generate nutrition assessments, meal plans, progress notes, and client education materials for diet…"
+  },
+  "description": {
+    "short": "Generate nutrition assessments, meal plans, progress notes, and client educatio…",
+    "full": "Generate nutrition assessments, meal plans, progress notes, and client education materials for dietitians"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/clinical-nutrition"
+    },
+    {
+      "folder": "./skills/dietary-communication"
+    }
+  ]
+}

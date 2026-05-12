@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "d1d1f074-87dc-512c-9d23-2aaa93ad0613",
+  "packageName": "com.the-ai-career-lab.occupational-therapist",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/occupational-therapist",
+    "privacyUrl": "https://theaicareerlab.com/professions/occupational-therapist/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/occupational-therapist/terms"
+  },
+  "name": {
+    "short": "occupational therapist",
+    "full": "Draft SOAP notes, treatment plans, progress reports, and home exercise programs for occupational th…"
+  },
+  "description": {
+    "short": "Draft SOAP notes, treatment plans, progress reports, and home exercise programs…",
+    "full": "Draft SOAP notes, treatment plans, progress reports, and home exercise programs for occupational therapy"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/occupational-therapy"
+    },
+    {
+      "folder": "./skills/patient-education"
+    }
+  ]
+}

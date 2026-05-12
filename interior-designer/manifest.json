@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "78241a87-4f83-5597-aefb-066a82bcbb83",
+  "packageName": "com.the-ai-career-lab.interior-designer",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/interior-designer",
+    "privacyUrl": "https://theaicareerlab.com/professions/interior-designer/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/interior-designer/terms"
+  },
+  "name": {
+    "short": "interior designer",
+    "full": "Write project proposals, draft spec sheets, and create client presentations"
+  },
+  "description": {
+    "short": "Write project proposals, draft spec sheets, and create client presentations",
+    "full": "Write project proposals, draft spec sheets, and create client presentations"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/design-client-management"
+    },
+    {
+      "folder": "./skills/interior-design"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "a623a94a-0ffe-515b-8706-24d29fd33af6",
+  "packageName": "com.the-ai-career-lab.construction-pm",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/construction-pm",
+    "privacyUrl": "https://theaicareerlab.com/professions/construction-pm/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/construction-pm/terms"
+  },
+  "name": {
+    "short": "construction pm",
+    "full": "Create project estimates, change orders, progress reports, and RFI responses for construction proje…"
+  },
+  "description": {
+    "short": "Create project estimates, change orders, progress reports, and RFI responses fo…",
+    "full": "Create project estimates, change orders, progress reports, and RFI responses for construction project management"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/construction-management"
+    },
+    {
+      "folder": "./skills/stakeholder-communication"
+    }
+  ]
+}

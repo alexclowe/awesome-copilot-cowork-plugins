@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "91ad2571-6cd2-56dc-a460-c7fed050ad07",
+  "packageName": "com.the-ai-career-lab.real-estate",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/real-estate",
+    "privacyUrl": "https://theaicareerlab.com/professions/real-estate/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/real-estate/terms"
+  },
+  "name": {
+    "short": "real estate",
+    "full": "Write listing descriptions, draft client emails, and create market analysis narratives"
+  },
+  "description": {
+    "short": "Write listing descriptions, draft client emails, and create market analysis nar…",
+    "full": "Write listing descriptions, draft client emails, and create market analysis narratives"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/client-communication"
+    },
+    {
+      "folder": "./skills/real-estate-marketing"
+    }
+  ]
+}

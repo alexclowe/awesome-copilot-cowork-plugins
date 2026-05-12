@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "bfa94ffb-59a3-5593-bee3-f182d949e9e3",
+  "packageName": "com.the-ai-career-lab.data-scientist",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/data-scientist",
+    "privacyUrl": "https://theaicareerlab.com/professions/data-scientist/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/data-scientist/terms"
+  },
+  "name": {
+    "short": "data scientist",
+    "full": "Design experiments, profile datasets, build models, and audit them for bias before shipping"
+  },
+  "description": {
+    "short": "Design experiments, profile datasets, build models, and audit them for bias bef…",
+    "full": "Design experiments, profile datasets, build models, and audit them for bias before shipping"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/dataset-profiling"
+    },
+    {
+      "folder": "./skills/model-card-generation"
+    }
+  ]
+}

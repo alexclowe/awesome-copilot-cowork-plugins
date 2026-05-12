@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "0db9fc29-8530-54ed-9e5d-6d33ad962254",
+  "packageName": "com.the-ai-career-lab.executive-assistant",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/executive-assistant",
+    "privacyUrl": "https://theaicareerlab.com/professions/executive-assistant/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/executive-assistant/terms"
+  },
+  "name": {
+    "short": "executive assistant",
+    "full": "Triage inboxes, prep meetings, and draft follow-ups that keep executives moving"
+  },
+  "description": {
+    "short": "Triage inboxes, prep meetings, and draft follow-ups that keep executives moving",
+    "full": "Triage inboxes, prep meetings, and draft follow-ups that keep executives moving"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/communication-coordination"
+    },
+    {
+      "folder": "./skills/executive-operations"
+    }
+  ]
+}

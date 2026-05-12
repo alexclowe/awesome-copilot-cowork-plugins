@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "e511f217-9595-5f2d-9449-c1e48b0b2039",
+  "packageName": "com.the-ai-career-lab.community-manager",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/community-manager",
+    "privacyUrl": "https://theaicareerlab.com/professions/community-manager/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/community-manager/terms"
+  },
+  "name": {
+    "short": "community manager",
+    "full": "Moderate communities, onboard members, surface sentiment trends, and run event workflows"
+  },
+  "description": {
+    "short": "Moderate communities, onboard members, surface sentiment trends, and run event …",
+    "full": "Moderate communities, onboard members, surface sentiment trends, and run event workflows"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/community-health-monitoring"
+    },
+    {
+      "folder": "./skills/moderation-audit-trail"
+    }
+  ]
+}

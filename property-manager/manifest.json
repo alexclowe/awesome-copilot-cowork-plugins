@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "8c6f592e-5b51-5075-9847-4454927f2682",
+  "packageName": "com.the-ai-career-lab.property-manager",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/property-manager",
+    "privacyUrl": "https://theaicareerlab.com/professions/property-manager/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/property-manager/terms"
+  },
+  "name": {
+    "short": "property manager",
+    "full": "Draft tenant notices, board reports, vendor emails, and budget narratives for property management"
+  },
+  "description": {
+    "short": "Draft tenant notices, board reports, vendor emails, and budget narratives for p…",
+    "full": "Draft tenant notices, board reports, vendor emails, and budget narratives for property management"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/board-communication"
+    },
+    {
+      "folder": "./skills/property-management"
+    }
+  ]
+}

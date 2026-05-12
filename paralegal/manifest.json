@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "0c44e48a-39a9-5425-a14e-cc493a46619b",
+  "packageName": "com.the-ai-career-lab.paralegal",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/paralegal",
+    "privacyUrl": "https://theaicareerlab.com/professions/paralegal/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/paralegal/terms"
+  },
+  "name": {
+    "short": "paralegal",
+    "full": "Draft legal documents, summarize cases, and write client correspondence"
+  },
+  "description": {
+    "short": "Draft legal documents, summarize cases, and write client correspondence",
+    "full": "Draft legal documents, summarize cases, and write client correspondence"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/legal-research"
+    },
+    {
+      "folder": "./skills/legal-writing"
+    }
+  ]
+}
