@@ -8,13 +8,22 @@ Built from the same source as [awesome-claude-cowork-plugins](https://github.com
 
 Cowork is a Microsoft 365 Copilot preview feature gated behind the [Microsoft Copilot Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/). Your tenant needs Frontier enrollment before these plugins will work.
 
-## Install
+## Install (recommended — pre-built zips)
 
-Each plugin folder contains a Microsoft 365 unified app manifest (`manifest.json`) plus skills and icons. To install one:
+The fastest way to install is to grab a pre-built zip from the [latest release](https://github.com/alexclowe/awesome-copilot-cowork-plugins/releases/latest):
 
-1. Zip the contents of the plugin folder (e.g., `pharmacist/`) — `manifest.json` should be at the root of the zip
-2. Sideload via Microsoft 365 admin center → Manage Apps → Upload custom app
-3. Or sideload via Teams (Apps → Manage your apps → Upload a customized app)
+1. Open the [latest release](https://github.com/alexclowe/awesome-copilot-cowork-plugins/releases/latest)
+2. Download `<plugin-slug>.zip` (e.g., `pharmacist.zip`)
+3. Sideload via **Microsoft 365 admin center → Manage Apps → Upload custom app**, or via **Teams → Apps → Manage your apps → Upload a customized app**
+
+Releases are tagged with a UTC timestamp (`sync-YYYYMMDD-HHMMSS`) so you can pin to a specific snapshot of all plugins if you need reproducibility.
+
+## Install (alternative — build the zip yourself)
+
+If you prefer to inspect or customize the source before installing, each plugin folder in this repo contains the unpacked Cowork extensibility package (`manifest.json` + `skills/` + icons). To install one:
+
+1. Zip the contents of the plugin folder (e.g., `pharmacist/`) — `manifest.json` must be at the root of the zip
+2. Sideload through the same path as above
 
 ## OneDrive folder-drop alternative (no admin needed)
 
