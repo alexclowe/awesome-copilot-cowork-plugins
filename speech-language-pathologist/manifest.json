@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "4bfe8838-f83e-5e70-b68c-8c8ee7f100e8",
+  "packageName": "com.the-ai-career-lab.speech-language-pathologist",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/speech-language-pathologist",
+    "privacyUrl": "https://theaicareerlab.com/professions/speech-language-pathologist/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/speech-language-pathologist/terms"
+  },
+  "name": {
+    "short": "speech language pathologist",
+    "full": "Draft therapy notes, write IEP goals, and generate progress reports and therapy materials"
+  },
+  "description": {
+    "short": "Draft therapy notes, write IEP goals, and generate progress reports and therapy…",
+    "full": "Draft therapy notes, write IEP goals, and generate progress reports and therapy materials"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/educational-documentation"
+    },
+    {
+      "folder": "./skills/speech-language-pathology"
+    }
+  ]
+}

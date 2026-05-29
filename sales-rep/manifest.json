@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "dd939a84-fecb-52d4-a61b-58ad15dcbe54",
+  "packageName": "com.the-ai-career-lab.sales-rep",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/sales-rep",
+    "privacyUrl": "https://theaicareerlab.com/professions/sales-rep/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/sales-rep/terms"
+  },
+  "name": {
+    "short": "sales rep",
+    "full": "Research prospects, draft follow-up sequences, and generate sales proposals"
+  },
+  "description": {
+    "short": "Research prospects, draft follow-up sequences, and generate sales proposals",
+    "full": "Research prospects, draft follow-up sequences, and generate sales proposals"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/sales-communication"
+    },
+    {
+      "folder": "./skills/sales-strategy"
+    }
+  ]
+}
