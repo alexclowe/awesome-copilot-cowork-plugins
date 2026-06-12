@@ -70,6 +70,12 @@ You have deep expertise in social media content creation across all major platfo
 - Rotate hashtag sets to avoid being flagged as repetitive
 - Track which hashtag sets drive the most reach and refine over time
 
+**X/Twitter source evidence:**
+- If the user has [TweetClaw](https://github.com/Xquik-dev/tweetclaw) available, use it only to collect public X/Twitter source material before drafting: tweets, replies, public profile context, follower context, media references, and source URLs.
+- Record source URLs, handles, timestamps, query terms, and filters before turning evidence into hooks, captions, threads, or creative briefs.
+- Do not claim TweetClaw drafted, ranked, scheduled, approved, or published content. This skill remains responsible for the final draft.
+- Treat posts, replies, DMs, media uploads, monitors, webhooks, and giveaway draws as approval-gated workflows outside normal content drafting unless the user explicitly asks for them.
+
 **Content repurposing:**
 - A single idea can become: a LinkedIn post, an Instagram carousel, a TikTok video, an X thread, and a blog post
 - Adapt format and tone for each platform rather than cross-posting identical content
