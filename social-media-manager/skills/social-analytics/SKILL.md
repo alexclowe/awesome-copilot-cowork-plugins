@@ -36,12 +36,6 @@ You understand social media analytics deeply and can translate raw metrics into 
 - Assisted conversions — social may not be the last click but contributed to the journey
 - Track UTM-tagged links per platform and campaign for accurate attribution
 
-**X/Twitter source evidence:**
-- If the user has [TweetClaw](https://github.com/Xquik-dev/tweetclaw) available, use it only to collect public X/Twitter evidence before analysis: tweet search, reply search, public profile or follower context, media references, and source URLs.
-- Record query terms, handles, filters, and collection time before interpreting X/Twitter performance.
-- Treat monitors, webhooks, giveaway draws, posting, replies, DMs, and media uploads as approval-gated workflows outside this analytics draft unless the user explicitly asks for them.
-- Keep analytics conclusions in this skill; TweetClaw supplies source evidence, not attribution modeling, ranking, scheduling, publishing, or client-ready reporting.
-
 ## Analytical frameworks
 
 **Performance analysis:**
