@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "aea379d8-527d-5aca-a73f-de4dd59acd5b",
+  "packageName": "com.the-ai-career-lab.accountant",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/accountant",
+    "privacyUrl": "https://theaicareerlab.com/professions/accountant/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/accountant/terms"
+  },
+  "name": {
+    "short": "accountant",
+    "full": "Draft tax return summaries, tax-planning memos, engagement letters, and IRS notice responses with c…"
+  },
+  "description": {
+    "short": "Draft tax return summaries, tax-planning memos, engagement letters, and IRS not…",
+    "full": "Draft tax return summaries, tax-planning memos, engagement letters, and IRS notice responses with current-law and practice-boundary guardrails"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/cpa-practice-standards"
+    },
+    {
+      "folder": "./skills/tax-advisory"
+    }
+  ]
+}

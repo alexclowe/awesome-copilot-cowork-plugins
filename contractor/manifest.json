@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "5b84a689-c9a9-5b08-a8d8-d519697d9582",
+  "packageName": "com.the-ai-career-lab.contractor",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/contractor",
+    "privacyUrl": "https://theaicareerlab.com/professions/contractor/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/contractor/terms"
+  },
+  "name": {
+    "short": "contractor",
+    "full": "Draft line-item estimates, change orders, scopes of work, and client updates with license and lien …"
+  },
+  "description": {
+    "short": "Draft line-item estimates, change orders, scopes of work, and client updates wi…",
+    "full": "Draft line-item estimates, change orders, scopes of work, and client updates with license and lien guardrails built in"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/contractor-compliance"
+    },
+    {
+      "folder": "./skills/estimating-and-scope"
+    }
+  ]
+}
