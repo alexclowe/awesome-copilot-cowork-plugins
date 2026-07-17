@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "7106eb2e-a335-55c2-b3be-80ea6416e95c",
+  "packageName": "com.the-ai-career-lab.finops-practitioner",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/finops-practitioner",
+    "privacyUrl": "https://theaicareerlab.com/professions/finops-practitioner/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/finops-practitioner/terms"
+  },
+  "name": {
+    "short": "finops practitioner",
+    "full": "Inventory AI spend, allocate costs to teams, compute cost-per-successful-task, and draft spend repo…"
+  },
+  "description": {
+    "short": "Inventory AI spend, allocate costs to teams, compute cost-per-successful-task, …",
+    "full": "Inventory AI spend, allocate costs to teams, compute cost-per-successful-task, and draft spend reports and renewal briefs"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/ai-billing-models"
+    },
+    {
+      "folder": "./skills/ai-unit-economics"
+    }
+  ]
+}
