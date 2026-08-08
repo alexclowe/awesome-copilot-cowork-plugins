@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "461146a0-1829-5023-b95f-0194f60aecdc",
+  "packageName": "com.the-ai-career-lab.health-and-safety-manager",
+  "developer": {
+    "name": "The AI Career Lab",
+    "websiteUrl": "https://theaicareerlab.com/professions/health-and-safety-manager",
+    "privacyUrl": "https://theaicareerlab.com/professions/health-and-safety-manager/privacy",
+    "termsOfUseUrl": "https://theaicareerlab.com/professions/health-and-safety-manager/terms"
+  },
+  "name": {
+    "short": "health and safety manager",
+    "full": "Draft incident write-ups, job hazard analyses, toolbox talks, inspection checklists, and corrective…"
+  },
+  "description": {
+    "short": "Draft incident write-ups, job hazard analyses, toolbox talks, inspection checkl…",
+    "full": "Draft incident write-ups, job hazard analyses, toolbox talks, inspection checklists, and corrective-action logs"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentSkills": [
+    {
+      "folder": "./skills/hazard-communication-style"
+    },
+    {
+      "folder": "./skills/regulatory-caution"
+    }
+  ]
+}
