@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
   "manifestVersion": "devPreview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "id": "37c920f5-4eac-55a6-9fdb-e8834244d521",
   "packageName": "com.the-ai-career-lab.insurance-agent",
   "developer": {

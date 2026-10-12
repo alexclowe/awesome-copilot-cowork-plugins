@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
   "manifestVersion": "devPreview",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "id": "97e3df3f-16ac-5092-ad13-5b99a63fcf57",
   "packageName": "com.the-ai-career-lab.recruiter",
   "developer": {

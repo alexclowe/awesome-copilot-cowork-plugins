@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
   "manifestVersion": "devPreview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "id": "43cbeb92-b9bf-5895-a560-e2be081dec8f",
   "packageName": "com.the-ai-career-lab.event-planner",
   "developer": {
