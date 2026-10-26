@@ -32,6 +32,7 @@ If you don't have admin access, you can install just the skills (without the plu
 ## Convert from Claude format
 
 If you'd rather author plugins in Claude format and target both platforms, use the [Cowork Converter](https://theaicareerlab.com/cowork-converter) — drag a Claude plugin zip in, get a Cowork plugin zip out (and vice versa). Free, no PowerShell required.
+- Related open-source finance suite: [Level Open Finance Skills](https://github.com/levelcfo/open-finance-skills) (20 SMB accounting, audit, and CFO playbooks documented at [levelcfo.com/finance-systems](https://levelcfo.com/finance-systems/)).
 
 ## License
 
