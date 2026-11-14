@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
   "manifestVersion": "devPreview",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "id": "91ad2571-6cd2-56dc-a460-c7fed050ad07",
   "packageName": "com.the-ai-career-lab.real-estate",
   "developer": {
@@ -12,11 +12,11 @@
   },
   "name": {
     "short": "real estate",
-    "full": "Write listing descriptions, draft client emails, and create market analysis narratives"
+    "full": "Write listing descriptions, draft client emails, create market analysis narratives, and check what …"
   },
   "description": {
-    "short": "Write listing descriptions, draft client emails, and create market analysis nar…",
-    "full": "Write listing descriptions, draft client emails, and create market analysis narratives"
+    "short": "Write listing descriptions, draft client emails, create market analysis narrati…",
+    "full": "Write listing descriptions, draft client emails, create market analysis narratives, and check what ChatGPT says about you"
   },
   "icons": {
     "color": "color.png",
@@ -24,6 +24,9 @@
   },
   "accentColor": "#2B579A",
   "agentSkills": [
+    {
+      "folder": "./skills/chatgpt-visibility"
+    },
     {
       "folder": "./skills/client-communication"
     },
